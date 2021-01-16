@@ -1,62 +1,27 @@
-import React from 'react';
+import React, { useEffect, useContext, useState } from 'react';
+import './App.css'
+import { signInWithGoogle } from './services/firebase';
+import { UserContext } from './providers/UserProvider';
+import { Redirect } from 'react-router-dom';
 
-const Login = (props) => {
+export default function Login() {
+  const user = useContext(UserContext)
+  const [redirect, setredirect] = useState(null)
 
-    const {
-        email, 
-        setEmail, 
-        password, 
-        setPassword, 
-        handleLogin, 
-        handleSignup, 
-        hasAccount, 
-        setHasAccount, 
-        emailError, 
-        passwordError,
-    } = props;
-
-    return(
-        <section className="login">
-            <div className="loginContainer">
-                <label>Username</label>
-                <input
-                    type="text"
-                    autoFocus
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                />
-                <p className="errorMsg">{emailError}</p>
-                <label>Password</label>
-                <input
-                    type="password"
-                    required
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                />
-                <p className="errorMsg">{passwordError}</p>
-                <div className="btnContainer">
-                    {hasAccount ? (
-                        <>
-                            <button onClick={handleLogin}>Sign in</button>
-                            <p>
-                                Don't have an account ?
-                                <span onClick={() => setHasAccount(!hasAccount)}>Sign up</span>
-                            </p>
-                        </>
-                    ) : (
-                        <>
-                            <button onClick={handleSignup}>Sign up</button>
-                            <p>
-                                Have an account ?  
-                                <span onClick={() => setHasAccount(!hasAccount)}>Sign in</span>
-                            </p>
-                        </>
-                    )}
-                </div>
-            </div>
-        </section>
-    );
-};
-
-export default Login;
+  useEffect(() => {
+    if (user) {
+      setredirect('/dashboard')
+    }
+  }, [user])
+  if (redirect) {
+    return <Redirect to={redirect}/>
+  }
+  return (
+      <div className="login-buttons">
+        <button className="login-provider-button" onClick={signInWithGoogle}>
+        <img src="https://img.icons8.com/ios-filled/50/000000/google-logo.png" alt="google icon"/>
+        <span> Continue with Google</span>
+       </button>
+      </div>
+  );
+}
