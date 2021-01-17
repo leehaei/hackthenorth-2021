@@ -1,4 +1,5 @@
 import firebase from "firebase/app";
+import { useLocation } from 'react-router-dom';
 
 import "firebase/auth";
 import "firebase/firestore";
@@ -29,7 +30,7 @@ export const signInWithGoogle = () => {
 export const logOut = () => {
   auth.signOut().then(()=> {
     console.log('logged out');
-    window.location.href.reload(false);
+    // window.location.href.reload(false);
   }).catch((error) => {
     console.log(error.message)
   })
