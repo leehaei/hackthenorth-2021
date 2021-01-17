@@ -29,7 +29,7 @@ export const signInWithGoogle = () => {
 export const logOut = () => {
   auth.signOut().then(()=> {
     console.log('logged out');
-    window.location.reload(false);
+    window.location.href.reload(false);
   }).catch((error) => {
     console.log(error.message)
   })
