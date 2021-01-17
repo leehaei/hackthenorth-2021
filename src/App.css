@@ -188,7 +188,7 @@
 	padding: 40px 0px 39px;
 	margin: auto;
 	margin-top: 30px;
-	margin-right: 140px;
+	margin-right: 200px;
   }
 
   .dashboardLogoutCircle {
@@ -564,7 +564,7 @@
   .tasksFlexWrapperThree {
 	background-color: rgba(126, 222, 191, 1);
 	border-radius: 20px;
-	padding: 40px 60px 40px 61px;
+	padding: 50px 70px 50px 61px;
 	position: relative;
   }
   .num1 {
@@ -577,7 +577,7 @@
   .tasksFlexWrapperTwo {
 	background-color: rgba(203, 243, 230, 1);
 	border-radius: 20px;
-	padding: 40px 60px 40px 61px;
+	padding: 50px 70px 50px 61px;
 	display: flex;
 	align-items: center;
   }
@@ -585,14 +585,14 @@
 	background-color: rgba(162, 208, 193, 1);
 	margin-right: 20px;
 	border-radius: 20px;
-	padding: 40px 60px 40px 61px;
+	padding: 50px 70px 50px 61px;
 	display: flex;
 	align-items: center;
   }
   .tasksFlexWrapperFive {
 	background-color: rgba(171, 245, 221, 1);
 	border-radius: 20px;
-	padding: 40px 60px 40px 61px;
+	padding: 50px 70px 50px 61px;
 	display: flex;
 	align-items: center;
   }
