@@ -2,6 +2,7 @@ import firebase from "firebase/app";
 
 import "firebase/auth";
 import "firebase/firestore";
+import "firebase/database";
 import dotenv from 'dotenv'
 dotenv.config()
 
@@ -32,4 +33,14 @@ export const logOut = () => {
   }).catch((error) => {
     console.log(error.message)
   })
+}
+
+export function addUser(userId) {
+  firebase.database().ref('users/' + userId).set({
+    feeling: "",
+    tasks: "",
+    year : "",
+    month: "",
+    day: "",
+  });
 }

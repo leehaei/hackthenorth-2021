@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
+import Tasks from "./Tasks";
+import Feeling from "./Feeling";
 import UserProvider from "./providers/UserProvider";
 import './App.css';
 
@@ -17,6 +19,12 @@ function App() {
           </Route>
           <Route path="/dashboard">
             <Dashboard />
+          </Route>
+          <Route path="/tasks">
+            <Tasks />
+          </Route>
+          <Route path="/feeling">
+            <Feeling />
           </Route>
         </Switch>
     </div>
