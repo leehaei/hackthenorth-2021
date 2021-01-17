@@ -57,3 +57,233 @@
 	height: 1.6em;
 	margin-right: 0.5em;
 }
+
+/* Login.js */
+
+.page20 {
+	border-radius: 50px;
+	padding: 142px 5px 142px 6px;
+	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(
+	  180deg,
+	  rgba(248, 220, 129, 1) 0%,
+	  white 100%
+	);
+	background-size: cover;
+  }
+
+  .welcomeToBalanced {
+	width: 364px;
+	font-family: "Roboto";
+	font-size: 50px;
+	font-weight: 700;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	margin-bottom: 61px;
+  }
+  .relativeWrapperOne {
+	position: relative;
+	&:not(:last-of-type) {
+	  margin-bottom: 60px;
+	}
+  }
+  .icons8Seesaw501 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 50px;
+	top: -13px;
+  }
+  .balanceBall21 {
+	padding: 40px 0 39px;
+	position: relative;
+  }
+  .seesaw {
+	padding: 38px 59px 0 91px;
+	position: relative;
+  }
+  .vector {
+	position: relative;
+  }
+  .circle2 {
+	position: absolute;
+	left: 58px;
+	top: 38px;
+  }
+  .line1 {
+	position: absolute;
+	right: 0;
+	top: 11px;
+  }
+  .line2 {
+	position: absolute;
+	left: 2px;
+	top: 26px;
+  }
+  .line3 {
+	position: absolute;
+	right: 3px;
+	top: 0;
+  }
+  .line4 {
+	position: absolute;
+	left: 0;
+	top: 19px;
+  }
+  .flexWrapperOne {
+	border-radius: 15px;
+	padding: 8px 70px 0 43px;
+	display: flex;
+	align-items: flex-start;
+	position: absolute;
+	left: 0;
+	bottom: -50px;
+	border: 2px solid rgba(162, 208, 193, 1);
+  }
+  .signInButton {
+	width: 156px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	margin-top: 3px;
+  }
+  .subtitle {
+	width: 300px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	position: relative;
+  }
+
+
+  /* Dashboard.js */
+
+  .dashboard {
+	border-radius: 50px;
+	padding: 41px 5px 106px 6px;
+	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: linear-gradient(
+	  180deg,
+	  rgba(248, 220, 129, 1) 0%,
+	  white 100%
+	);
+  }
+  .relativeWrapperTwo {
+	margin-bottom: 68px;
+	margin-left: 195px;
+	position: relative;
+  }
+
+  .dashboardLogoutCircle {
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	width: 76px;
+	height: 42px;
+	border-radius: 15px;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	border: 2px solid rgba(162, 208, 193, 1);
+  }
+  .dashboardTitle {
+	width: 364px;
+	font-family: "Roboto";
+	font-size: 50px;
+	font-weight: 700;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	margin-bottom: 17px;
+  }
+  .dashboardSubtitle {
+	width: 300px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	margin-bottom: 61px;
+	margin-left: 34px;
+  }
+  .dashboardRelativeWrapperOne {
+	margin-bottom: 94px;
+	margin-left: 101px;
+	position: relative;
+  }
+  .icons8Seesaw501 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 31px;
+	top: -13px;
+  }
+  .hand {
+	padding: 0 57px 99px 0;
+	position: relative;
+	background-image: url("https://static.overlay-tech.com/assets/50d2f0b2-1340-43c1-82b0-34b562c3e80c.svg");
+  }
+  .hand1 {
+	position: absolute;
+	left: 86px;
+	top: 117px;
+  }
+  .hand2 {
+	position: absolute;
+	left: 122px;
+	top: 80px;
+  }
+  .hand3 {
+	position: relative;
+  }
+  .hand4 {
+	position: absolute;
+	left: 10px;
+	top: 127px;
+  }
+  .hand5 {
+	position: absolute;
+	left: 84px;
+	top: 80px;
+  }
+  .dashboarFlexWrapperOne {
+	padding: 0 0 0 31px;
+	display: flex;
+	align-items: flex-start;
+  }
+  .todayNumChallenges {
+	width: 151px;
+	font-family: "Roboto";
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba(33, 65, 81, 1);
+	margin-right: 22px;
+  }
+  .numChallengesCir {
+	border-radius: 20px;
+	padding: 10px 36px;
+	display: flex;
+	align-items: center;
+	border: 2px solid rgba(162, 208, 193, 1);
+  }
+  .todayChallenges {
+	width: 44px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+  }
+
+
