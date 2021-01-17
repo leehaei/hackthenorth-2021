@@ -1,9 +1,18 @@
 .App {
   width: 100vw;
-  display: flex;
   flex-direction: column;
   align-items: center;
  }
+
+ * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
 
  .dashboard-text {
 	text-align: center;
@@ -22,14 +31,50 @@
 	cursor: pointer;
 	transition: transform 0.5s ease-in-out;
 }
-.logout-button:hover{
-	transform: scale(1.05);
+.dashboardLogoutCircle:hover{
+	transform: scale(1.2);
 }
-.logout-button img{
-	width: 1.6em;
-	height: 1.6em;
-	margin-right: 0.5em;
+
+.flexWrapperSix:hover{
+	transform: scale(1.2);
 }
+
+.flexWrapperTwo:hover{
+	transform: scale(1.2);
+}
+
+.flexWrapperFour:hover{
+	transform: scale(1.2);
+}
+
+.flexWrapperFour:hover{
+	transform: scale(1.2);
+}
+
+.flexWrapperThree:hover{
+	transform: scale(1.2);
+}
+
+.flexWrapperFive:hover{
+	transform: scale(1.2);
+}
+
+.tasksFlexWrapperThree:hover{
+	transform: scale(1.2);
+}
+
+.tasksFlexWrapperTwo:hover{
+	transform: scale(1.2);
+}
+
+.tasksFlexWrapperFour:hover{
+	transform: scale(1.2);
+}
+
+.tasksFlexWrapperFive:hover{
+	transform: scale(1.2);
+}
+
 
 .login-buttons {
 	display: flex;
@@ -58,38 +103,16 @@
 	margin-right: 0.5em;
 }
 
-/* Login.js */
+/* All Pages */
 
-.page20 {
-	border-radius: 50px;
-	padding: 142px 5px 142px 6px;
-	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background: linear-gradient(
-	  180deg,
-	  rgba(248, 220, 129, 1) 0%,
-	  white 100%
-	);
-	background-size: cover;
-  }
-
-  .welcomeToBalanced {
-	width: 364px;
-	font-family: "Roboto";
-	font-size: 50px;
-	font-weight: 700;
-	color: rgba(33, 65, 81, 1);
-	text-align: center;
-	margin-bottom: 61px;
-  }
   .relativeWrapperOne {
+	margin-bottom: 124px;
+	margin: auto;
 	position: relative;
-	&:not(:last-of-type) {
-	  margin-bottom: 60px;
-	}
   }
+
+  /* Login.js */
+
   .icons8Seesaw501 {
 	width: 50px;
 	height: 50px;
@@ -106,43 +129,35 @@
 	position: relative;
   }
   .vector {
+	left: 5px;
 	position: relative;
   }
   .circle2 {
 	position: absolute;
-	left: 58px;
+	left: 63px;
 	top: 38px;
   }
   .line1 {
 	position: absolute;
-	right: 0;
+	right: 13px;
 	top: 11px;
   }
   .line2 {
 	position: absolute;
-	left: 2px;
+	left: 7px;
 	top: 26px;
   }
   .line3 {
 	position: absolute;
-	right: 3px;
+	right: 15px;
 	top: 0;
   }
   .line4 {
 	position: absolute;
-	left: 0;
+	left: 5px;
 	top: 19px;
   }
-  .flexWrapperOne {
-	border-radius: 15px;
-	padding: 8px 70px 0 43px;
-	display: flex;
-	align-items: flex-start;
-	position: absolute;
-	left: 0;
-	bottom: -50px;
-	border: 2px solid rgba(162, 208, 193, 1);
-  }
+
   .signInButton {
 	width: 156px;
 	font-family: "Roboto";
@@ -152,23 +167,11 @@
 	text-align: center;
 	margin-top: 3px;
   }
-  .subtitle {
-	width: 300px;
-	font-family: "Roboto";
-	font-size: 16px;
-	font-weight: 400;
-	color: rgba(33, 65, 81, 1);
-	text-align: center;
-	position: relative;
-  }
-
 
   /* Dashboard.js */
 
   .dashboard {
-	border-radius: 50px;
 	padding: 41px 5px 106px 6px;
-	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -182,6 +185,8 @@
 	margin-bottom: 68px;
 	margin-left: 195px;
 	position: relative;
+	padding: 40px 0px 39px;
+	margin: auto;
   }
 
   .dashboardLogoutCircle {
@@ -206,6 +211,8 @@
 	color: rgba(33, 65, 81, 1);
 	text-align: center;
 	margin-bottom: 17px;
+	padding: 40px 0 39px;
+	margin: auto;
   }
   .dashboardSubtitle {
 	width: 300px;
@@ -216,19 +223,16 @@
 	text-align: center;
 	margin-bottom: 61px;
 	margin-left: 34px;
+	padding: 40px 0 39px;
+	margin: auto;
   }
   .dashboardRelativeWrapperOne {
 	margin-bottom: 94px;
 	margin-left: 101px;
 	position: relative;
+	margin: auto;
   }
-  .icons8Seesaw501 {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	left: 31px;
-	top: -13px;
-  }
+
   .hand {
 	padding: 0 57px 99px 0;
 	position: relative;
@@ -261,6 +265,8 @@
 	padding: 0 0 0 31px;
 	display: flex;
 	align-items: flex-start;
+	padding: 40px 0px 39px;
+	margin: auto;
   }
   .todayNumChallenges {
 	width: 151px;
@@ -289,80 +295,6 @@
 
 /* Feeling.js */
 
-.feeling {
-	border-radius: 50px;
-	padding: 41px 5px 106px 6px;
-	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	background: linear-gradient(
-	  180deg,
-	  rgba(248, 220, 129, 1) 0%,
-	  white 100%
-	);
-
-
-	/* border-radius: 50px;
-	padding: 41px 0 115px;
-	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	background: linear-gradient(
-	  180deg,
-	  rgba(248, 220, 129, 1) 0%,
-	  white 100%
-	); */
-  }
-  .feelingRelativeWrapperTwo {
-	margin-bottom: 35px;
-	margin-left: 201px;
-	position: relative;
-  }
-  .feelingLogoutCircle{
-	width: 156px;
-	font-family: "Roboto";
-	font-size: 16px;
-	font-weight: 400;
-	color: rgba(33, 65, 81, 1);
-	text-align: center;
-	position: relative;
-	width: 76px;
-	height: 42px;
-	border-radius: 15px;
-	position: absolute;
-	left: 38px;
-	top: -13px;
-	border: 2px solid rgba(162, 208, 193, 1);
-  }
-  /* .logoutButton {
-	width: 156px;
-	font-family: "Roboto";
-	font-size: 16px;
-	font-weight: 400;
-	color: rgba(33, 65, 81, 1);
-	text-align: center;
-	position: relative;
-  }
-  .logoutCircle {
-	width: 76px;
-	height: 42px;
-	border-radius: 15px;
-	position: absolute;
-	left: 38px;
-	top: -13px;
-	border: 2px solid rgba(162, 208, 193, 1);
-  } */
-  /* .goodMorning {
-	width: 339px;
-	margin-bottom: 15px;
-	margin-left: 36px;
-	font-family: "Roboto";
-	font-size: 33px;
-	font-weight: 400;
-	color: rgba(33, 65, 81, 1);
-  } */
   .goodMorningEmphasis2 {
 	font-family: "Roboto";
 	font-size: 40px;
@@ -376,25 +308,23 @@
 	font-weight: 500;
 	color: rgba(33, 65, 81, 1);
 	text-align: center;
-	margin-bottom: 85px;
+	margin-bottom: 50px;
+	margin: auto;
+	padding: 30px 0px 30px;
   }
   .flexWrapperSeven {
 	margin-bottom: 20px;
 	padding: 0 0 0 38px;
 	display: flex;
 	align-items: flex-start;
+	margin: auto;
+	padding: 40px 0px 0px;
   }
   .feelingRelativeWrapperOne {
 	margin-right: 20px;
 	position: relative;
   }
-  .icons8Seesaw501 {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	right: -10px;
-	top: 37px;
-  }
+
   .flexWrapperTwo {
 	background-color: rgba(126, 222, 191, 1);
 	border-radius: 20px;
@@ -502,6 +432,8 @@
 	padding: 0 0 0 38px;
 	display: flex;
 	align-items: flex-start;
+	margin: auto;
+	padding: 40px 0px 39px;
   }
   .flexWrapperThree {
 	background-color: rgba(162, 208, 193, 1);
@@ -598,17 +530,74 @@
 	background-image: url("https://static.overlay-tech.com/assets/392a3b6e-dbfd-4bfd-a8fe-8179d05f35e7.svg");
   }
   .flexWrapperSix {
-	margin-left: 97px;
 	border-radius: 20px;
 	padding: 11px 26px 0;
 	display: flex;
 	align-items: flex-start;
 	border: 2px solid rgba(162, 208, 193, 1);
+	padding: 20px 10px 20px;
+	margin: auto;
   }
   .continue {
 	width: 124px;
 	font-family: "Roboto";
 	font-size: 20px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+  }
+
+  /* Tasks.js */
+  .numberOfTasksEmphasis2 {
+	font-family: "Roboto";
+	font-size: 40px;
+	font-weight: 300;
+	color: rgba(33, 65, 81, 1);
+  }
+  .tasksRelativeWrapperOne {
+	margin-right: 20px;
+	position: relative;
+  }
+
+  .tasksFlexWrapperThree {
+	background-color: rgba(126, 222, 191, 1);
+	border-radius: 20px;
+	padding: 40px 60px 40px 61px;
+	position: relative;
+  }
+  .num1 {
+	font-family: "Roboto";
+	font-size: 33px;
+	font-weight: 500;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+  }
+  .tasksFlexWrapperTwo {
+	background-color: rgba(203, 243, 230, 1);
+	border-radius: 20px;
+	padding: 40px 60px 40px 61px;
+	display: flex;
+	align-items: center;
+  }
+  .tasksFlexWrapperFour {
+	background-color: rgba(162, 208, 193, 1);
+	margin-right: 20px;
+	border-radius: 20px;
+	padding: 40px 60px 40px 61px;
+	display: flex;
+	align-items: center;
+  }
+  .tasksFlexWrapperFive {
+	background-color: rgba(171, 245, 221, 1);
+	border-radius: 20px;
+	padding: 40px 60px 40px 61px;
+	display: flex;
+	align-items: center;
+  }
+  .continue {
+	width: 124px;
+	font-family: "Roboto";
+	font-size: 16px;
 	font-weight: 400;
 	color: rgba(33, 65, 81, 1);
 	text-align: center;

@@ -47,7 +47,6 @@ export default function Dashboard() {
         We will be sending challenges through notifications during the day.
       </p>
       <div className="dashboardRelativeWrapperOne">
-        <div className="icons8Seesaw501" />
         <div className="hand">
           <img
             alt=""

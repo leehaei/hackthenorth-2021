@@ -37,8 +37,10 @@ export default function Login() {
         return <Redirect to={redirect}/>
     }
     return (
-        <div className="page20">
-            <p className="welcomeToBalanced">
+        <div className="dashboard">
+            <div className="relativeWrapperTwo">
+            </div>
+            <p className="dashboardTitle">
                 Welcome To <br /> Balanced
             </p>
             <div className="relativeWrapperOne">
@@ -78,19 +80,18 @@ export default function Login() {
                     </div>
                 </div>
             </div>
-            <div className="relativeWrapperOne">
-                <button className="flexWrapperOne" onClick={signInWithGoogle}>
-                    <img
-                        alt=""
-                        src="https://static.overlay-tech.com/assets/51d06d55-9eaf-40ca-b8aa-99b2ded127fa.png"
-                    />
-                    <p className="signInButton">
-                        Sign in with gmail
-                    </p>
-                    
-                </button>
-                <p className="subtitle">A customized approach to maintaining a work - life balance.</p>
-            </div>
+            <p className="dashboardSubtitle">
+                A customized approach to maintaining a work - life balance.
+            </p>
+            <button className="flexWrapperSix" onClick={signInWithGoogle}>
+                <img
+                    alt=""
+                    src="https://static.overlay-tech.com/assets/51d06d55-9eaf-40ca-b8aa-99b2ded127fa.png"
+                />
+                <p className="signInButton">
+                    Sign in with gmail
+                </p>
+            </button>
         </div>
     );
 }

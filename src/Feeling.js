@@ -26,19 +26,18 @@ export default function Feeling() {
     }
 
     return (
-        <div className="feeling">
-            <div className="feelingRelativeWrapperTwo">
+        <div className="dashboard">
+            <div className="relativeWrapperTwo">
                 <button className="dashboardLogoutCircle" onClick={logOut}>
                     Logout
                 </button>
             </div>
             <p className="dashboardTitle">
-                <>Good Morning!<br /> <strong className="goodMorningEmphasis2"> <br /> </strong></>
+                <>Good Morning!<br /> <strong className="goodMorningEmphasis2"> </strong></>
             </p>
             <p className="howAreYouFeelingToday">How are you feeling today?</p>
             <div className="flexWrapperSeven">
                 <div className="feelingRelativeWrapperOne">
-                    <div className="icons8Seesaw501"/>
                     <button className="flexWrapperTwo" onClick={() => setFeeling("happy")}>
                         <div className="happyFaceWrapperOne">
                             <div className="group">

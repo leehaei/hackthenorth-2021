@@ -50,36 +50,38 @@ export default function Tasks() {
     }
     
     return (
-        <React.Fragment>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <h1>Number of Tasks</h1>
+        <div className="dashboard">
+            <div className="relativeWrapperTwo">
+                <button className="dashboardLogoutCircle" onClick={logOut}>
+                    Logout
+                </button>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-xl-12">
-            <button onClick={() => setNumTasks("1")}>
-                1
-            </button>
-            <button onClick={() => setNumTasks("2")}>
-                2
-            </button>
-            <button onClick={() => setNumTasks("3")}>
-                3
-            </button>
-            <button onClick={() => setNumTasks("4")}>
-                4
-            </button>
-            <button onClick={() => {writeUserData(user_id, feeling, numTasks, currYear, currMonth, currDay)}}>
-                Continue
-            </button>
+            <p className="dashboardTitle">
+                <>Number of Tasks<br /> <strong className="numberOfTasksEmphasis2"> </strong></>
+            </p>
+            <p className="howAreYouFeelingToday">How many challenges are you up for today?</p>
+            <div className="flexWrapperSeven">
+                <div className="tasksRelativeWrapperOne">
+                    <button className="tasksFlexWrapperThree" onClick={() => setNumTasks("1")}>
+                        <p className="num1">1</p>
+                    </button>
+                </div>
+                <button className="tasksFlexWrapperTwo" onClick={() => setNumTasks("2")}>
+                    <p className="num1">2</p>
+                </button>
             </div>
-          </div>
-          <button className="logout-button" onClick={logOut}>
-            <span> logout</span>
-        </button>
+            <div className="flexWrapperEight">
+                <button className="tasksFlexWrapperFour" onClick={() => setNumTasks("3")}>
+                    <p className="num1">3</p>
+                </button>
+                <button className="tasksFlexWrapperFive" onClick={() => setNumTasks("4")}>
+                    <p className="num1">4</p>
+                </button>
+            </div>
+            <div className="flexWrapperSix" onClick={() => {writeUserData(user_id, feeling, numTasks, currYear, currMonth, currDay)}}>
+                <p className="continue">Continue</p>
+            </div>
         </div>
-      </React.Fragment>
-    )
+    );
 }
+
