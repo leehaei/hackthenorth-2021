@@ -1,5 +1,4 @@
 import firebase from "firebase/app";
-import { useLocation } from 'react-router-dom';
 
 import "firebase/auth";
 import "firebase/firestore";

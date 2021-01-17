@@ -13,7 +13,7 @@ function writeUserData(userId, feeling, tasks, year, month, day) {
       month: month,
       day: day,
     });
-    window.location.href.reload(false);
+    window.location.reload(false);
   }
 
 export default function Tasks() {
@@ -22,7 +22,7 @@ export default function Tasks() {
     const [numTasks, setNumTasks] = useState("1");
 
     const location = useLocation();
-    const feeling = location.href.state.feeling;
+    const feeling = location.state.feeling;
 
     var date = new Date();
     date.toLocaleString('en-US', { timeZone: 'America/New_York' });
