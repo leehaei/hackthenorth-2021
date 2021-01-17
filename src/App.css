@@ -287,3 +287,329 @@
   }
 
 
+/* Feeling.js */
+
+.feeling {
+	border-radius: 50px;
+	padding: 41px 5px 106px 6px;
+	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: linear-gradient(
+	  180deg,
+	  rgba(248, 220, 129, 1) 0%,
+	  white 100%
+	);
+
+
+	/* border-radius: 50px;
+	padding: 41px 0 115px;
+	box-shadow: -10px 10px 50px 10px rgba(66, 64, 64, 0.18);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: linear-gradient(
+	  180deg,
+	  rgba(248, 220, 129, 1) 0%,
+	  white 100%
+	); */
+  }
+  .feelingRelativeWrapperTwo {
+	margin-bottom: 35px;
+	margin-left: 201px;
+	position: relative;
+  }
+  .feelingLogoutCircle{
+	width: 156px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	position: relative;
+	width: 76px;
+	height: 42px;
+	border-radius: 15px;
+	position: absolute;
+	left: 38px;
+	top: -13px;
+	border: 2px solid rgba(162, 208, 193, 1);
+  }
+  /* .logoutButton {
+	width: 156px;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	position: relative;
+  }
+  .logoutCircle {
+	width: 76px;
+	height: 42px;
+	border-radius: 15px;
+	position: absolute;
+	left: 38px;
+	top: -13px;
+	border: 2px solid rgba(162, 208, 193, 1);
+  } */
+  /* .goodMorning {
+	width: 339px;
+	margin-bottom: 15px;
+	margin-left: 36px;
+	font-family: "Roboto";
+	font-size: 33px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+  } */
+  .goodMorningEmphasis2 {
+	font-family: "Roboto";
+	font-size: 40px;
+	font-weight: 300;
+	color: rgba(33, 65, 81, 1);
+  }
+  .howAreYouFeelingToday {
+	width: 375px;
+	font-family: "Roboto";
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+	margin-bottom: 85px;
+  }
+  .flexWrapperSeven {
+	margin-bottom: 20px;
+	padding: 0 0 0 38px;
+	display: flex;
+	align-items: flex-start;
+  }
+  .feelingRelativeWrapperOne {
+	margin-right: 20px;
+	position: relative;
+  }
+  .icons8Seesaw501 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: -10px;
+	top: 37px;
+  }
+  .flexWrapperTwo {
+	background-color: rgba(126, 222, 191, 1);
+	border-radius: 20px;
+	padding: 35px 30px;
+	position: relative;
+  }
+  .happyFaceWrapperOne {
+	position: relative;
+  }
+  .happyFace {
+	padding: 0 0 0 40px;
+	position: relative;
+	background-image: url("https://static.overlay-tech.com/assets/b507206f-db7a-44c5-b4ab-c93c1a793624.svg");
+  }
+  .happyFaceMouth {
+	position: absolute;
+	left: 16px;
+	bottom: 21px;
+  }
+  .happyFaceMouth2 {
+	position: absolute;
+	right: 16px;
+	bottom: 21px;
+  }
+  .happyFaceBottomTeeth {
+	position: absolute;
+	left: 18px;
+	bottom: 13px;
+  }
+  .happyFaceBottomTeeth2 {
+	position: absolute;
+	right: 18px;
+	bottom: 13px;
+  }
+  .happyFaceEyes {
+	display: flex;
+	align-items: flex-start;
+	position: absolute;
+	left: 18px;
+	top: 21px;
+  }
+  .happyFaceEye1 {
+	width: 19px;
+	height: 13px;
+	margin-right: 7px;
+	background-image: url("https://static.overlay-tech.com/assets/09de0fe0-a8ee-4f78-992b-1759ec9f5bd7.svg");
+  }
+  .happyFaceEye2 {
+	width: 19px;
+	height: 13px;
+	background-image: url("https://static.overlay-tech.com/assets/b089b8e3-5c80-47a8-bf29-83406e8691e0.svg");
+  }
+  .flexWrapperFour {
+	background-color: rgba(203, 243, 230, 1);
+	border-radius: 20px;
+	padding: 35px 30px;
+	display: flex;
+	align-items: center;
+  }
+  .tiredFaceWrapperOne {
+	padding: 0 0 0 40px;
+	position: relative;
+	background-image: url("https://static.overlay-tech.com/assets/daf34716-6b92-4602-82b6-22bf581b07bc.svg");
+  }
+  .tiredFaceEye1 {
+	width: 20px;
+	height: 11px;
+	position: absolute;
+	left: 44px;
+	top: 22px;
+	background-image: url("https://static.overlay-tech.com/assets/1aa95996-493b-4d97-9c7a-a115e344da57.svg");
+  }
+  .tiredFaceEye2 {
+	width: 20px;
+	height: 11px;
+	position: absolute;
+	left: 16px;
+	top: 22px;
+	background-image: url("https://static.overlay-tech.com/assets/9621276c-09e8-40ee-9589-4332e41c58ec.svg");
+  }
+  .tiredFaceHand {
+	width: 33px;
+	height: 34px;
+	position: absolute;
+	left: 11px;
+	top: 46px;
+	background-image: url("https://static.overlay-tech.com/assets/37129f94-8d8a-478b-bf96-67d9c1bb68cc.svg");
+  }
+  .feelingFlexWrapperOne {
+	padding: 0 0 0 18px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 22px;
+	top: 41px;
+	background-image: url("https://static.overlay-tech.com/assets/2df5decd-4d68-453d-9560-eb7ea359a0af.svg");
+  }
+  .tiredFaceHand2 {
+	position: absolute;
+	left: 18px;
+	top: 8px;
+  }
+  .flexWrapperEight {
+	margin-bottom: 60px;
+	padding: 0 0 0 38px;
+	display: flex;
+	align-items: flex-start;
+  }
+  .flexWrapperThree {
+	background-color: rgba(162, 208, 193, 1);
+	margin-right: 20px;
+	border-radius: 20px;
+	padding: 35px 30px;
+	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.25);
+	display: flex;
+	align-items: center;
+  }
+  .worriedFaceWrapperOne {
+	padding: 0 0 0 40px;
+	position: relative;
+	background-image: url("https://static.overlay-tech.com/assets/244c327b-8db3-4836-a10a-dd704ff0a118.svg");
+  }
+  .worriedFaceEye1 {
+	width: 18px;
+	height: 7px;
+	position: absolute;
+	left: 16px;
+	top: 35px;
+	background-image: url("https://static.overlay-tech.com/assets/f714013d-a622-4659-b245-23898d33ba77.svg");
+  }
+  .worriedFaceEyebrow1 {
+	width: 13px;
+	height: 11px;
+	position: absolute;
+	left: 17px;
+	top: 21px;
+	background-image: url("https://static.overlay-tech.com/assets/27570943-7908-46ad-879d-6c0c3ff64990.svg");
+  }
+  .worriedFaceEyebrow2 {
+	width: 14px;
+	height: 5px;
+	position: absolute;
+	left: 47px;
+	top: 16px;
+	background-image: url("https://static.overlay-tech.com/assets/030c25e5-a3e7-4e72-a0b9-05ab76661343.svg");
+  }
+  .worriedFaceMouth {
+	width: 48px;
+	height: 16px;
+	position: absolute;
+	left: 16px;
+	top: 47px;
+	background-image: url("https://static.overlay-tech.com/assets/60a8e9ee-7854-4b9f-84c7-7d0b30c19e40.svg");
+  }
+  .worriedFaceEye2 {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: 48px;
+	top: 29px;
+	background-image: url("https://static.overlay-tech.com/assets/f72e0246-a32d-4c67-814d-ff5e13cb71b9.svg");
+  }
+  .worriedFaceMouth2 {
+	position: absolute;
+	left: 40px;
+	top: 47px;
+  }
+  .flexWrapperFive {
+	background-color: rgba(171, 245, 221, 1);
+	border-radius: 20px;
+	padding: 35px 30px;
+	display: flex;
+	align-items: center;
+  }
+  .sadFaceWrapperOne {
+	padding: 0 0 0 40px;
+	position: relative;
+	background-image: url("https://static.overlay-tech.com/assets/37dbdd1b-dcde-49c6-83e6-f87b82319989.svg");
+  }
+  .sadFaceMouth {
+	width: 32px;
+	height: 16px;
+	position: absolute;
+	left: 24px;
+	top: 47px;
+	background-image: url("https://static.overlay-tech.com/assets/b37f0a13-e101-44e4-95ad-41a1b34fa4aa.svg");
+  }
+  .sadFaceEyes {
+	display: flex;
+	align-items: flex-start;
+	position: absolute;
+	left: 19px;
+	top: 26px;
+  }
+  .vector {
+	margin-right: 18px;
+  }
+  .sadFaceEye1 {
+	width: 12px;
+	height: 12px;
+	background-image: url("https://static.overlay-tech.com/assets/392a3b6e-dbfd-4bfd-a8fe-8179d05f35e7.svg");
+  }
+  .flexWrapperSix {
+	margin-left: 97px;
+	border-radius: 20px;
+	padding: 11px 26px 0;
+	display: flex;
+	align-items: flex-start;
+	border: 2px solid rgba(162, 208, 193, 1);
+  }
+  .continue {
+	width: 124px;
+	font-family: "Roboto";
+	font-size: 20px;
+	font-weight: 400;
+	color: rgba(33, 65, 81, 1);
+	text-align: center;
+  }
