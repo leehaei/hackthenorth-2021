@@ -1,71 +1,21 @@
 # hackthenorth-2021
-# Getting Started with Create React App
+## Inspiration
+Online / Zoom Fatigue is a pressing issue during this COVID-19 Pandemic. Long days staring at a computer screen in meetings lowers one’s daily energy, causes irregular sleeping patterns, and leads to headaches, back, shoulder and neck pain and has negative effects one vision in the long run, these are just a few side effects of working from home. Medical studies support that apps who focus on monitoring and encouraging exercising and self-care, show an increase in thought process, emotions, breathing, and stress levels in its users— all of which have an enormous impact on our overall functioning. The importance of creating a proper balance between work and personal life has never been more prominent than in today's day where there is a global pandemic. Majority of the population is working from home and for many it has been a challenging change to get accustomed to. There are no longer the same boundaries between work and rest, as a result people are facing constant burnout or unintentionally adapting to unhealthy routines. This inevitably decreases productivity, quality of work, and strains one's mental health. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+"Balance" is designed to mitigate online fatigue. It reminds users to take a self-care break, you know breathe a little, hydrate, or get fresh air throughout their workday. We want to create a platform that promotes guilt-free self-care through daily reminders and challenges which encourage the users to pause and refuel, in the efforts to avert online fatigue. 
 
-## Available Scripts
+## How we built it
+Balance is built using React, Javascript, HTML/CSS, and Python. We utilized Firebase to build the Google Sign In for authentication and the firebase real-time database. In addition, for effectively integrating the Figma designs we used Overlay. We worked on integrating the Google Calendar API with our hack, specifically finding free time in a user's schedule and inserting break-time events during those times.
 
-In the project directory, you can run:
+## Challenges we ran into
+The primary challenge was to integrate more complicated features of our app with the least amount of text or visual disturbance as possible. It was important that we kept our app user-friendly, simple and visually appealing while still encompassing different aspects. Although we have complex features and settings running in the background, in the foreground we tried to keep the UX clean and simple. This allowed for more advanced preferences from cluttering our overall UX and interface so that all users can easily use Balanced in a single click with minimal conflict.
 
-### `yarn start`
+## Accomplishments that we're proud of
+We are proud of building an application that solves a crucial problem many are battling right now across the world. Moreover, we are proud of our collaboration throughout the process of making Balanced and our ability to adapt to obstacles. Lastly, our combined effort in making an effective UX design is something that we are proud of. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What we learned
+We gained a lot of insight about the design aspect of an application and the importance of visually aesthetic app features. Our learning also stems from the collaboration aspect of building Balanced. This is because we learned extremely valuable skills, including prioritization, time management, adaptability and effective communication skills. We learned how to efficiently work as a team with students from different backgrounds by capitalizing on individual strengths. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Balanced 
+The next step is to get our application and the message behind it to the public. To do this, Balanced will improve on the current promotional and marketing strategies by improving our current platforms. We will focus on creating a strong marketing plan and put our app on the Apple store so that it can reach as many people as possible. In the future Balanced will conduct extensive research regarding user experience in order to develop new innovative features which are beneficial and requested by our users. Lastly, we will be looking into partnering with organizations that have a similar goal of improving the work-life balance and will mutually benefit both parties. We hope to grow the success of Balanced by increasing our recurring users and continuously improving the quality of our application. 
