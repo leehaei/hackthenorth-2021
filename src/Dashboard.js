@@ -3,17 +3,32 @@ import "./App.css"
 import { UserContext } from "./providers/UserProvider";
 import { Redirect } from "react-router-dom";
 import { logOut } from "./services/firebase";
+import firebase from 'firebase/app';
 
 export default function Dashboard() {
   const user = useContext(UserContext);
   const [redirect, setredirect] = useState(null);
-  var todaysChallenges = "4";
+  const [todaysChallenges, setTodaysChallenges] = useState('0');
 
+  if(user){
+    var user_id = firebase.auth().currentUser.uid;
+    firebase.database().ref('users/' + user_id).once('value').then((snapshot) => {
+      if(snapshot.val() && snapshot.val().tasks){
+        setTodaysChallenges(snapshot.val().tasks);
+      }
+    });
+  }
+  
   useEffect(() => {
     if (!user) {
       setredirect("/");
     }
   }, [user]);
+  useEffect(() => {
+    if (!user) {
+      console.log(todaysChallenges);
+    }
+  }, [todaysChallenges]);
   if (redirect) {
     return <Redirect to={redirect} />;
   }
