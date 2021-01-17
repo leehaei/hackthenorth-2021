@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hackthenorth-2021/static/css/main.97374a66.chunk.css",
-    "main.js": "/hackthenorth-2021/static/js/main.1fa2ecae.chunk.js",
-    "main.js.map": "/hackthenorth-2021/static/js/main.1fa2ecae.chunk.js.map",
+    "main.js": "/hackthenorth-2021/static/js/main.d005674d.chunk.js",
+    "main.js.map": "/hackthenorth-2021/static/js/main.d005674d.chunk.js.map",
     "runtime-main.js": "/hackthenorth-2021/static/js/runtime-main.07deda17.js",
     "runtime-main.js.map": "/hackthenorth-2021/static/js/runtime-main.07deda17.js.map",
     "static/js/2.8a652204.chunk.js": "/hackthenorth-2021/static/js/2.8a652204.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.07deda17.js",
     "static/js/2.8a652204.chunk.js",
     "static/css/main.97374a66.chunk.css",
-    "static/js/main.1fa2ecae.chunk.js"
+    "static/js/main.d005674d.chunk.js"
   ]
 }
