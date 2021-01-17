@@ -13,7 +13,7 @@ function writeUserData(userId, feeling, tasks, year, month, day) {
       month: month,
       day: day,
     });
-    window.location.href = window.location;
+    window.location.href = window.location.href;
   }
 
 export default function Tasks() {
