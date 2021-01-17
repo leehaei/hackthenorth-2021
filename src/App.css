@@ -187,6 +187,8 @@
 	position: relative;
 	padding: 40px 0px 39px;
 	margin: auto;
+	margin-top: 30px;
+	margin-right: 140px;
   }
 
   .dashboardLogoutCircle {
@@ -601,4 +603,47 @@
 	font-weight: 400;
 	color: rgba(33, 65, 81, 1);
 	text-align: center;
+  }
+
+  /* mobile use */
+
+  @media only screen and (max-width: 768px) {
+	  .dashboardTitle {
+		font-size: 40px;
+		padding: 0px 0px 0px;
+	  }
+	  .howAreYouFeelingToday {
+		font-size: 18px;
+		padding: 20px 0px 20px;
+	  }
+	  .relativeWrapperTwo {
+		margin-bottom: 68px;
+		margin-left: 195px;
+		position: relative;
+		padding: 40px 0px 10px;
+		margin: auto;
+		margin-top: 30px;
+		margin-right: 140px;
+	  }
+	  .dashboard {
+		overflow-y: hidden;
+		overflow-x: hidden;
+		margin: auto;
+		padding: 0px 5px 10px 6px;
+	  }
+	  .tasksFlexWrapperThree {
+		padding: 50px 60px 50px 61px;
+	  }
+	  .tasksFlexWrapperTwo {
+		padding: 50px 60px 50px 61px;
+	  }
+	  .tasksFlexWrapperFour {
+		padding: 50px 60px 50px 61px;
+	  }
+	  .tasksFlexWrapperFive {
+		padding: 50px 60px 50px 61px;
+	  }
+	  .dashboarFlexWrapperOne {
+		padding: 60px 0px;
+	  }
   }
